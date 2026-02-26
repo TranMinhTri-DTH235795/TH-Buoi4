@@ -43,6 +43,7 @@ namespace QuanLyBanHang.Forms
             dataGridView.DataSource = hd;
         }
 
+
         private void btnLapHoaDon_Click(object sender, EventArgs e)
         {
             using (frmHoaDon_ChiTiet chiTiet = new frmHoaDon_ChiTiet())
